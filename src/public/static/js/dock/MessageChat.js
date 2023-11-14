@@ -20,13 +20,13 @@ export default class MessageChat {
 
         let platformSrc;
         if(this.platform == "youtube"){
-            platformSrc = "../../src/public/static/images/youtube.png";
+            platformSrc = "static/images/youtube.png";
         } 
         if(this.platform == "facebook"){
-            platformSrc = "../../src/public/static/images/facebook.png";
+            platformSrc = "static/images/facebook.png";
         }
         if(this.platform == "twitch"){
-            platformSrc = "../../src/public/static/images/twitch.png";
+            platformSrc = "static/images/twitch.png";
         }
 
         let platformLogo = '<img class="chatPlatformLogo" src="' + platformSrc + '" />';
@@ -71,13 +71,13 @@ export default class MessageChat {
         platformLogo.classList.add("chatPlatformLogo");
 
         if(this.platform == "youtube"){
-            platformLogo.src = "../../src/public/static/images/youtube.png";
+            platformLogo.src = "static/images/youtube.png";
         } 
         if(this.platform == "facebook"){
-            platformLogo.src = "../../src/public/static/images/facebook.png";
+            platformLogo.src = "static/images/facebook.png";
         }
         if(this.platform == "twitch"){
-            platformLogo.src = "../../src/public/static/images/twitch.png";
+            platformLogo.src = "static/images/twitch.png";
         }
 
         let chatName = document.createElement("h6");
